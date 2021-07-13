@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_grey"
+    android:orientation="vertical">
+
+    <com.example.bigapp.layout.TitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:left_icon="@drawable/arrow_back"
+        app:title="@string/personal_information" />
+
+    <com.example.bigapp.layout.SettingBar
+        android:id="@+id/head_sculpture_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bar_leftText="@string/faces">
+        <ImageView
+            android:id="@+id/photo_head"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/circle"
+            android:layout_gravity="center_horizontal|end"
+            />
+    </com.example.bigapp.layout.SettingBar>
+
+    <com.example.bigapp.layout.SettingBar
+        android:id="@+id/name_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:bar_leftText="@string/nickname"
+        app:bar_rightIcon="@drawable/arrow_forward" />
+
+    <com.example.bigapp.layout.SettingBar
+        android:id="@+id/sex_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:bar_leftText="@string/sex" />
+</LinearLayout>

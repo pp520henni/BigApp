@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">BigApp</string>
+
+    <!--  注册登录  -->
+    <string name="register">注册</string>
+    <string name="register_tips">手机号码仅用于登录使用</string>
+    <string name="login_button">登录</string>
+    <string name="edit_password">请输入密码</string>
+    <string name="register_edit_password">请设置6–18位密码</string>
+    <string name="edit_password_again">请再次输入密码</string>
+    <string name="edit_phone_number">请输入手机号码</string>
+    <string name="other_login_methods">其他登录方式</string>
+    <!--  首页  -->
+    <string name="setting">设置</string>
+    <string name="find">发现</string>
+    <string name="chat">聊天</string>
+    <string name="note_list">笔记本</string>
+    <!--  单个笔记页面  -->
+    <string name="note">笔记</string>
+    <string name="title">标题：</string>
+    <string name="content">内容：</string>
+    <string name="return_note_title">是否确定要退出</string>
+    <string name="return_note_message">您当前的标题为空，退出将不保存本笔记，请问是否退出？</string>
+    <string name="return_note_result">已退出，未保存</string>
+    <string name="return_note_sure">确定</string>
+    <string name="return_note_cancle">取消</string>
+    <!--  Chat页面  -->
+    <string name="welcome">亲爱的"%1$s", 您好,欢迎您选择了BigApp</string>
+    <!--  发现页面  -->
+    <string name="dialog_box">对话框</string>
+    <string name="front_service">前台服务</string>
+    <string name="fingerprint_unlocking">指纹解锁,进入秘密页面</string>
+    <!-- 设置界面 -->
+    <string name="log_out">退出登录</string>
+    <string name="phone">电话</string>
+    <string name="set_language">语言</string>
+    <string name="chinese_language">中文</string>
+    <string name="english_language">English</string>
+    <string name="personal_information">个人信息</string>
+    <string name="log_out_message">您确定要退出登录吗？</string>
+    <!--  个人信息界面  -->
+    <string name="sex">性别</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="secrecy">保密</string>
+    <string name="nickname">昵称</string>
+    <string name="faces">头像</string>
+    <string name="failed_get_image">无法获取图片</string>
+    <!--  左侧滑动栏  -->
+    <string name="left_menu_name">左边滑动菜单栏</string>
+    <string name="intent_mimi">跳转到秘密页面</string>
+    <string name="intent_dialog">跳转到Dialog</string>
+    <!--  指纹解锁页面  -->
+    <string name="fingerprint_unlocking_please">请指纹解锁</string>
+    <string name="fingerprint_unlocking_success">指纹认证成功</string>
+    <string name="fingerprint_unlocking_fail">指纹认证失败，请再试一次</string>
+    <string name="system_version_low">您的系统版本过低，不支持指纹功能</string>
+    <string name="not_supported_fingerprint">您的手机不支持指纹功能</string>
+    <string name="set_window_fingerprint">您还未设置锁屏指纹，请先设置一个锁屏指纹</string>
+    <!--  对话框页面  -->
+    <string name="normal_dialog">普通对话框</string>
+    <string name="list_dialog">列表对话框</string>
+    <string name="sex_dialog">选择您的性别</string>
+    <string name="workday_dialog">选择您的工作日</string>
+    <string name="name_dialog">请输入您的姓名</string>
+    <string name="custom_dialog">自定义对话框</string>
+    <string name="normal_dialog_title">我是一个普通的对话框</string>
+    <string name="normal_dialog_message">你要点击哪一个按钮呢</string>
+    <string name="first_message">第一条信息</string>
+    <string name="second_message">第二条信息</string>
+    <string name="third_message">第三条信息</string>
+    <string name="fourth_message">第四条信息</string>
+    <string name="list_dialog_title">我是一个列表对话框</string>
+    <string name="your_choose">你选择了 </string>
+    <string name="monday">周一</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="thursday">周四</string>
+    <string name="friday">周五</string>
+    <string name="saturday">周六</string>
+    <string name="sunday">周日</string>
+    <string name="custom_view">自定义View</string>
+    <!--    <string name="app_name">BigApp</string>-->
+
+    <!--    &lt;!&ndash;  注册登录  &ndash;&gt;-->
+    <!--    <string name="register">Register</string>-->
+    <!--    <string name="register_tips">Phone is only used for login</string>-->
+    <!--    <string name="login_button">Login</string>-->
+    <!--    <string name="edit_password">Input password</string>-->
+    <!--    <string name="register_edit_password">Set a 6 – 18 digit password</string>-->
+    <!--    <string name="edit_password_again">Input password again</string>-->
+    <!--    <string name="edit_phone_number">Input phone number</string>-->
+    <!--    <string name="other_login_methods">Other login methods</string>-->
+    <!--    &lt;!&ndash;  首页  &ndash;&gt;-->
+    <!--    <string name="setting">Setting</string>-->
+    <!--    <string name="find">Find</string>-->
+    <!--    <string name="chat">Chat</string>-->
+    <!--    <string name="contacts">Contacts</string>-->
+    <!--    &lt;!&ndash;  Chat页面  &ndash;&gt;-->
+    <!--    <string name="welcome">亲爱的"%1$s", 您好,欢迎您选择了BigApp</string>-->
+    <!--    &lt;!&ndash; 设置界面 &ndash;&gt;-->
+    <!--    <string name="log_out">Lou out</string>-->
+    <!--    <string name="language">Language</string>-->
+    <!--    <string name="phone">Phone</string>-->
+    <!--    <string name="set_language">Languages</string>-->
+    <!--    <string name="chinese_language">中文</string>-->
+    <!--    <string name="english_language">English</string>-->
+    <!--    <string name="personal_information">Personal information</string>-->
+
+
+</resources>

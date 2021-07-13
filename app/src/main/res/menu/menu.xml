@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/chat"
+        android:title="Chat"
+        android:icon="@drawable/login_wechat_ic"/>
+    <item
+        android:id="@+id/contacts"
+        android:title="contacts"
+        android:icon="@drawable/contacts_bar"/>
+    <item
+        android:id="@+id/find"
+        android:title="find"
+        android:icon="@drawable/find_bar" />
+    <item
+        android:id="@+id/setting"
+        android:title="setting"
+        android:icon="@drawable/setting_bar" />
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#CCCCCC</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#0000FF</color>
+    <color name="green">#00FF00</color>
+    <color name="yellow">#FFFF00</color>
+
+    <!-- 标题栏背景色-->
+    <color name="background_grey">#FFEDEDED</color>
+    <!-- 底部栏背景色 -->
+    <color name="background_bottom">#FFF7F7F7</color>
+    <!-- 底部栏选择色   -->
+    <color name="select_green">#FF07C160</color>
+    <color name="white90">#E6FFFFFF</color>
+    <color name="common_accent_color">#5A8DDF</color>
+    <color name="common_button_disable_color">#BBBBBB</color>
+    <color name="common_button_pressed_color">#AA5A8DDF</color>
+
+    <color name="black5">#0D000000</color>
+    <color name="black80">#CC000000</color>
+    <color name="black60">#99000000</color>
+
+
+    <color name="actionbar">#3cb879</color>
+    <color name="body_background">#e8e8e8</color>
+    <color name="body_background_green">#82e783</color>
+    <color name="server_status_bar">#2b2b2b</color>
+    <color name="title_gray">#434343</color>
+    <color name="bg_msg_you">#5eb964</color>
+    <color name="bg_msg_from">#e5e7eb</color>
+    <color name="msg_border_color">#a1a1a1</color>
+    <color name="bg_btn_join">#1e6258</color>
+    <color name="bg_msg_input">#e8e8e8</color>
+    <color name="text_msg_input">#626262</color>
+    <color name="lblFromName">#777777</color>
+</resources>

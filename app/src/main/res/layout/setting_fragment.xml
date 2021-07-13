@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/background_grey">
+    <com.example.bigapp.layout.TitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/setting"
+        />
+    <com.example.bigapp.layout.SettingBar
+        android:id="@+id/language_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bar_rightIcon="@drawable/arrow_forward"
+        app:bar_leftText="@string/set_language"
+        app:bar_rightHint="@string/chinese_language"
+        />
+    <com.example.bigapp.layout.SettingBar
+        android:id="@+id/personal_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:bar_rightIcon="@drawable/arrow_forward"
+        app:bar_leftText="@string/personal_information"
+        />
+    <com.example.bigapp.layout.SettingBar
+        android:id="@+id/log_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bar_titleText="@string/log_out"
+        app:bar_titleColor="@color/red"
+        />
+</LinearLayout>
